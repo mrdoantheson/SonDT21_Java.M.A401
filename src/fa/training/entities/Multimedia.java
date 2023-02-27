@@ -9,11 +9,6 @@ public abstract class Multimedia {
     public Multimedia() {
     }
 
-    public Multimedia(String name, double duration) {
-        this.name = name;
-        this.duration = duration;
-    }
-
     public String getName() {
         return name;
     }

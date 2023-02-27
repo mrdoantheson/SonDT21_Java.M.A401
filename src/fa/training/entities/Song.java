@@ -8,15 +8,6 @@ public class Song extends Multimedia {
     public Song() {
     }
 
-    public Song(String name, double duration, String singer) {
-        super(name, duration);
-        this.singer = singer;
-    }
-
-    public String getSinger() {
-        return singer;
-    }
-
     public void setSinger(String singer) {
         this.singer = singer;
     }

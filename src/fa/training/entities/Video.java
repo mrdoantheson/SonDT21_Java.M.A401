@@ -8,15 +8,6 @@ public class Video extends Multimedia {
     public Video() {
     }
 
-    public Video(String name, double duration, String director) {
-        super(name, duration);
-        this.director = director;
-    }
-
-    public String getDirector() {
-        return director;
-    }
-
     public void setDirector(String director) {
         this.director = director;
     }

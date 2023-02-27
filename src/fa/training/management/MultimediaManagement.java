@@ -5,7 +5,7 @@ import fa.training.entities.Multimedia;
 import java.util.List;
 
 public class MultimediaManagement {
-    private List<Multimedia> listOfMultimedia;
+    public List<Multimedia> listOfMultimedia;
 
     public MultimediaManagement(List<Multimedia> listOfMultimedia) {
         this.listOfMultimedia = listOfMultimedia;

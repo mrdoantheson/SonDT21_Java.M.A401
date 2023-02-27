@@ -26,25 +26,19 @@ public class Test {
             int choice = Integer.parseInt(scanner.nextLine());
 
             switch (choice) {
-                case 1:
+                case 1 -> {
                     Song song = new Song();
                     song.createMultimedia(scanner);
                     multimediaManagement.addMultimedia(song);
-                    break;
-                case 2:
+                }
+                case 2 -> {
                     Video video = new Video();
                     video.createMultimedia(scanner);
                     multimediaManagement.addMultimedia(video);
-                    break;
-                case 3:
-                    multimediaManagement.displayMultimedia();
-                    break;
-                case 4:
-                    running = false;
-                    break;
-                default:
-                    System.out.println("Invalid choice, please try again.");
-                    break;
+                }
+                case 3 -> multimediaManagement.displayMultimedia();
+                case 4 -> running = false;
+                default -> System.out.println("Invalid choice, please try again.");
             }
 
             System.out.println();
